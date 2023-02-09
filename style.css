@@ -1,0 +1,151 @@
+body{
+    background-color: azure;
+    border:0px groove wheat;
+    margin:0%;
+}
+.body2{
+    background-color: darkgray;
+   
+}
+nav{
+    background-color: snow;
+    padding-left: 50px;
+}
+h1{
+    margin:0px;
+    padding: 10px;
+    
+    
+
+}
+.link{
+    text-decoration:none;
+}
+p{
+    text-align: right;
+    padding-right: 50px;
+}
+.input1{
+    border-radius: 50%;
+    background-color: deepskyblue;
+}
+div.container{
+    display: flex;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+div.item{
+    border: 1px solid black;
+    background-color: mintcream;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+}
+div.item:hover{
+    box-shadow: 1px 1px 3px 3px darkgrey;
+}
+span{
+    display: inline-block;
+    text-decoration: none;
+}
+div.filter{
+    opacity: 0.3;
+    filter: brightness(0.5)blur(.1px);
+}
+div.popup{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: ivory;
+    margin: 40px;
+    position: relative;
+    left: 350px;
+    bottom: 400px;
+}
+.popup1{
+    padding-top:20px;
+    padding-left:10px;
+    text-decoration: none;
+}
+.input2{
+    position: relative;
+    left: 160px;
+
+}
+.p1{
+    text-align: left;
+    background-color: azure;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.input3{position: relative;
+    left: 170px;
+    
+    background-color: cornflowerblue;
+}
+.input4{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background-color:chartreuse;
+}
+.p2{
+    display:inline;
+    position: relative;
+    left: 420px;
+
+}
+.p3{
+    display: inline;
+    position: relative;
+    left: 490px;
+}
+.p4{
+    text-align: center;
+    background-color:whitesmoke;
+    padding-left: 40px;
+    color: blue;
+}
+div.item1{
+    background-color: mintcream;
+    border-radius: 5px;
+    height: 200px;
+    width: 300px;
+    margin: 20px;
+    position: absolute;
+    left: 400px;
+    bottom: 180px;
+    box-shadow: 0px 0px 20px  darkgray;
+    text-decoration: none;
+    
+}
+div.popup2{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: ivory;
+    margin: 40px;
+    position: relative;
+    left: 380px;
+    bottom: 20px;
+}
+.p5{
+    color: blue;
+    text-align: center;
+}
+div.item2{
+    border: 0px groove skyblue;
+    height: 11cm;
+    width: 100%;
+}
+/*making website responsive*/
+@media (max-width:400px) {
+    .containermobile{
+        flex-direction: column;
+    }
+    .popupmobile{
+        position: relative;
+        bottom: 1200px;
+    }
+}
